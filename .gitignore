@@ -1,0 +1,49 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Build
+dist/
+build/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary
+tmp/
+temp/
+
+*.pt
+*.onnx
+*.pth
+*.weights
+datasets/
+runs/
+mlruns/
+wandb/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.zip
+*.tar
+*.gz
+*.7z
+*.tsbuildinfo
+labels.cache
+backend/sonar-storage/surveys/
+*.pem
+*.key
